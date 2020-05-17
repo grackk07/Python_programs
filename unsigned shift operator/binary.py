@@ -1,6 +1,6 @@
 def convert(left_operand):
     lo_byte=list(bin(left_operand))  #turns left operand into binary
-    lo_byte=lo_byte[2:]              #strips the part 0b
+    lo_byte=lo_byte[2:]              #strips the 0b part from the binary
     lis_32b=list()
     i=0
     while i<=31-len(lo_byte):
