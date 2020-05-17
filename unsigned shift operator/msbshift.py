@@ -1,4 +1,4 @@
-#msb shifting and putting zero
+#msb shifting and putting zero in place
 def shift(right_operand,comp2s):
     i=0
     msb_l=list()
