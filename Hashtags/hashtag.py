@@ -1,5 +1,9 @@
 unique_hashtags=list()
 name_dict=dict()
+"""
+Finds out the unique hastags from all the lines
+
+"""
 with open('data.txt','r') as u:
      for line in u:
          line=line.split('-')
@@ -20,7 +24,10 @@ with open('data.txt','r') as u:
                         else:
                             i=j
                             break
-                         
+"""                         
+find out the same hashtag use by different people 
+
+"""                         
 print("List of unique hashtag is: \n",unique_hashtags)                        
 for hashtag in unique_hashtags:
     name_list=list()
